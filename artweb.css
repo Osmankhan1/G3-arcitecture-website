@@ -1,13 +1,72 @@
+/* work sans font import from google */
+
+  @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;800&family=Work+Sans:wght@300;400;500;600;700;800&display=swap');
+*{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
 .header{
-    display: flex;
-    width: 1920px;
-    height: 1322px;
-    background-color: antiquewhite;
+  background-color: #ff900e1a;;
+
 }
-h1{
-    margin-left: 228px;
+.nav1{
+    display: flex;
+    padding: 50px 228px;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-h1{
+    font-size: 45px;
+    color: #131313;
+}
+ul{
+    display: flex;
+    list-style: none;
+    font-size: 18px;
+    font-weight: 500;
+    
+}
+ul li{
+    margin-left:50px ;
+}
+ul li a{
+    text-decoration: none;
+    color: #424242;
+}
+
+.h2-1{
+    color: #131313;
+    font-size: 64px;
+    font-weight: 700;
+    width: 868px;
+    margin: 0 auto;
+    text-align: center;
+    /* margin-top: 205px; */
+}
+.p1{
+    color:  #727272;
+    font-size: 16px;
+    font-weight: 400;
+    width: 868px;
+    line-height: 26px; /* 162.5% */
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 20px;
+}
+.button1{
+    width: 180px;
+    height: 64px;
+    border-radius: 8px;
+    background: #FF900E;
+    border: 0;
+    margin-left: 870px;
+    margin-top: 20px;
+    color: #FFFFFF;
+}
+.banner{
+    width: 1440px;
+    height: 700px;
     margin-top: 50px;
-}
-.menu{
-    display: flex;
+    margin-left: 240px;
+    margin-bottom: 45px;
 }
