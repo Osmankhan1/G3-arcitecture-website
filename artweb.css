@@ -8,6 +8,7 @@
 .header{
   background-color: #ff900e1a;
   padding: 50px 228px;
+  margin-bottom: 85px;
 
 }
 nav{
@@ -52,7 +53,7 @@ ul li a{
     font-weight: 400;
     line-height: 26px;
 }
-.button1{
+.btn-primary{
     color: #FFF;
     text-align: center;
     font-size: 20px;
@@ -67,15 +68,66 @@ ul li a{
 .banner img{
     width: 100%;
 }
+/* section part */
+main{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.team-container{
+    display: flex;
+    align-items: center;
+}
+.team-img-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 24px;
+}
+.team-content{
+    padding-left: 70px;
+    padding-right: 70px;
+}
+.team-title{
+    color: #131313;
+    font-size: 45px;
+    font-weight: 700;
+    max-width: 468px;
+}
+.span1{
+    color:#727272;
+    font-size: 45px;
+    font-weight: 500;
+}
+.span2{
+    color: #FF900E;
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+.team-discription{
+    color: #727272;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px; 
+    margin-bottom: 32px;
+}
+
 /* responsive style */
 /* small or mobile device */
 @media screen and (max-width: 576px) {
     .header{
         padding: 20px;
     }
-    nav{
+    nav,.team-container{
         flex-direction: column;
 
+    }
+    .team-img-container{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .team-content{
+        padding-left: 20px;
+        padding-right: 20px;
     }
     
    
@@ -85,7 +137,7 @@ ul li a{
     .header{
         padding: 20px;
     }
-    nav{
+    nav,.team-container{
         flex-direction: column;
     }
     
